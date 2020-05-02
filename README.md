@@ -1,7 +1,12 @@
 SPRING BOOT PRODUCER
 ----------------------------------------------------------------------------------------------------
 
-Se genera proyecto Spring Boot con dependencia utilizada para conectarse a un servidor RabbitMQ.
+Proyecto Spring Boot que envia mensajes a cola en RabbitMQ.
+
+
+----------------------------------------------------------------------------------------------------
+
+Dependencia utilizada para utilizar RabbitMQ:
 
 ```
 
