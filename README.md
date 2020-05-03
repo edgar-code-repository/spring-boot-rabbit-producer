@@ -3,7 +3,6 @@ SPRING BOOT PRODUCER
 
 Proyecto Spring Boot que envia mensajes a cola en RabbitMQ.
 
-
 ----------------------------------------------------------------------------------------------------
 
 Dependencia utilizada para utilizar RabbitMQ:
@@ -19,3 +18,27 @@ Dependencia utilizada para utilizar RabbitMQ:
 
 ----------------------------------------------------------------------------------------------------
 
+
+Exchange generado por la aplicacion en RabbitMQ:
+
+![Screenshot Exchange](screenshots/demo-exchange.png)
+
+---------------------------------------------------------------------------
+
+Cola generada por la aplicacion en RabbitMQ:
+
+![Screenshot Queue](screenshots/demo-queue.png)
+
+---------------------------------------------------------------------------
+
+Mensaje enviado desde Postman a rest endpoint:
+
+![Screenshot MessageSent](screenshots/message-sent.png)
+
+---------------------------------------------------------------------------
+
+Mensaje recibido por RabbitMQ:
+
+![Screenshot MessageReceived](screenshots/message-received-by-queue.png)
+
+---------------------------------------------------------------------------
