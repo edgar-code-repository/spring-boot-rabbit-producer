@@ -3,6 +3,12 @@ SPRING BOOT PRODUCER
 
 Proyecto Spring Boot que envia mensajes a cola en RabbitMQ.
 
+Los mensajes enviados son procesados por la aplicación "Consumer":
+
+	SPRING BOOT CONSUMER
+
+	https://github.com/edgar-code-repository/spring-boot-rabbit-consumer
+
 ----------------------------------------------------------------------------------------------------
 
 Dependencia utilizada para utilizar RabbitMQ:
