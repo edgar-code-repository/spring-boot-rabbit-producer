@@ -5,13 +5,13 @@ Proyecto Spring Boot que envia mensajes a cola en RabbitMQ.
 
 Los mensajes enviados son procesados por la aplicación "Consumer":
 
-	SPRING BOOT CONSUMER
+**SPRING BOOT CONSUMER**
 
-	https://github.com/edgar-code-repository/spring-boot-rabbit-consumer
+https://github.com/edgar-code-repository/spring-boot-rabbit-consumer
 
 ----------------------------------------------------------------------------------------------------
 
-Dependencia utilizada para utilizar RabbitMQ:
+**Dependencia para conectar a RabbitMQ:**
 
 ```
 
@@ -24,27 +24,26 @@ Dependencia utilizada para utilizar RabbitMQ:
 
 ----------------------------------------------------------------------------------------------------
 
-
-Exchange generado por la aplicacion en RabbitMQ:
+**Exchange generado por la aplicacion en RabbitMQ:**
 
 ![Screenshot Exchange](screenshots/demo-exchange.png)
 
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
-Cola generada por la aplicacion en RabbitMQ:
+**Cola generada por la aplicacion en RabbitMQ:**
 
 ![Screenshot Queue](screenshots/demo-queue.png)
 
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
-Mensaje enviado desde Postman a rest endpoint:
+**Mensaje enviado desde Postman a rest endpoint:**
 
 ![Screenshot MessageSent](screenshots/message-sent.png)
 
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
-Mensaje recibido por RabbitMQ:
+**Mensaje recibido por RabbitMQ:**
 
 ![Screenshot MessageReceived](screenshots/message-received-by-queue.png)
 
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
